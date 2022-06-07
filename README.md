@@ -17,6 +17,6 @@ AWS SNS
 3. Run project in plain console : gradle run -q --console=plain
 
 #User interaction
-Provide the channel name: SMS or Email
-Enter notification Message
-Enter mobile number for SMS and email for email address.
+1. Provide the channel name: SMS or Email
+2. Enter notification Message
+3. Enter mobile number for SMS notification and email for mail notificaiton
