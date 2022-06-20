@@ -12,8 +12,7 @@ Gradle
 AWS SNS
 
 #Setup AWS account creds to authenticate the SNS request
-1. Have aws profiles (aws-vault) configured as mentioned in the developer onboarding documents: 
-   https://pexa.atlassian.net/wiki/spaces/International/pages/438992897/Developer+Onboarding#Configure-AWS-CLI-and-aws-vault
+1. Have aws profiles (aws-vault) configured as mentioned in the developer onboarding documents "Developer+Onboarding#Configure-AWS-CLI-and-aws-vault" as per company wiki.   
 2. Store the temporary creds associated with any developer profile lets say "pexa-uk-product1-np-developer" and role in ~/.aws/credentials file 
    using below steps:
         1. aws-vault exec pexa-uk-product1-np-developer -- env | grep AWS
